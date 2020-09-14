@@ -1,0 +1,46 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 15px;
+}
+
+.infoBox--recovered {
+  border-top: 10px solid #7dd71d;
+}
+
+.infoBox--cases {
+  border-top: 10px solid #cc1034;
+}
+
+.infoBox--deaths {
+  border-top: 10px solid #292257;
+}
+
+.infoBox__cases--cases {
+  color: #cc1034 !important;
+}
+
+.infoBox__cases--recovered {
+  color: #7dd71d !important;
+}
+
+.infoBox__cases--deaths {
+  color: #292257 !important;
+}
+
+.infoBox__cases {
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoBox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
+}
